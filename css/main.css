@@ -1,3 +1,45 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+html, body{
+  height:100%;
+}
+
+body{
+  background-color: #f15d53;
+}
+
+a, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#menuIcon{
+  position: fixed;
+  top: .5em;
+  left: .5em;
+}
+
+#navi a{
+  color: #fdd900;
+}
+
+#naviCloseBtn{
+  position: absolute;
+  top: 0em;
+  right: 0em;
+}
+
+#navi{
+  position: fixed;
+  width: 0;
+  height: 100%;
+  overflow-x: hidden;
+  z-index: 2;
+  background-color: black;
+  top:0;
+  left:0;
+  transition: 0.5s;
+  padding-top: 3em;
+}
