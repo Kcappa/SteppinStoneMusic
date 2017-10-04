@@ -1,3 +1,8 @@
+@font-face {
+font-family: stout;
+src:url(/Users/kaldurahm/Desktop/SteppinStone/Stout.otf);
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -22,13 +27,16 @@ a, a:visited{
 }
 
 #navi a{
+  font-family: stout;
+  font-size: 2em;
   color: #fdd900;
 }
+
 
 #naviCloseBtn{
   position: absolute;
   top: 0em;
-  right: 0em;
+  right: .5em;
 }
 
 #navi{
