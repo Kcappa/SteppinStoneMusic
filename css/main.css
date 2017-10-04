@@ -21,6 +21,7 @@ a, a:visited{
 }
 
 #menuIcon{
+  color: #fdd900;
   position: fixed;
   top: .5em;
   left: .5em;
