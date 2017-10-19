@@ -9,10 +9,12 @@ src:url(/Users/kaldurahm/Desktop/SteppinStone/Stout.otf);
 
 html, body{
   height:100%;
+  overflow: hidden;
 }
 
 body{
   background-color: #f15d53;
+    /*overflow: hidden;*/
 }
 
 a, a:visited{
@@ -51,4 +53,43 @@ a, a:visited{
   left:0;
   transition: 0.5s;
   padding-top: 3em;
+}
+
+#imgContainer{
+  padding: 1em;
+  position:relative;
+  background-color: #fdd900;
+}
+
+#cominSoon{
+margin: auto;
+font-family: stout;
+color: #fdd900;
+text-align: center;
+}
+
+#cominSoon p{
+  font-size: 2em;
+  margin: 0.5em;
+}
+
+
+
+.footer{
+  left: -15px;
+  width: 110%;
+  background-color: #fdd900;
+
+}
+
+.socialMediaLinks{
+  text-align: center;
+}
+
+.socialMediaLinks li{
+  display: inline;
+}
+
+.socialMediaLinks a{
+  color: #f15d53;
 }
