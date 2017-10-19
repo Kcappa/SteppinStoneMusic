@@ -9,12 +9,11 @@ src:url(/Users/kaldurahm/Desktop/SteppinStone/Stout.otf);
 
 html, body{
   height:100%;
-  overflow: hidden;
 }
 
 body{
   background-color: #f15d53;
-    /*overflow: hidden;*/
+
 }
 
 a, a:visited{
@@ -75,11 +74,11 @@ text-align: center;
 
 
 
+
 .footer{
   left: -15px;
-  width: 110%;
+  width: 112%;
   background-color: #fdd900;
-
 }
 
 .socialMediaLinks{
