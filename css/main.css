@@ -1,6 +1,12 @@
 @font-face {
-font-family: stout;
-src:url(/Users/kaldurahm/Desktop/SteppinStone/Stout.otf);
+    font-family: 'stout';
+    src: url('Stout.otf'),
+        url('stout-webfont.woff2') format('woff2'),
+         url('stout-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 *, *:before, *:after {
