@@ -22,10 +22,10 @@
 
 @font-face {
   font-family: 'edo';
-  src:url('edo-webfont.ttf') format('ttf'),
-      url('edo-webfont.woff2') format('woff2'),
-      url('edo-webfont.woff') format('woff');
-      
+  src: url('edo-webfont.ttf') format('truetype'),
+       url('edo-webfont.woff2') format('woff2'),
+       url('edo-webfont.woff') format('woff');
+
   font-weight: normal;
   font-style: normal;
 }
