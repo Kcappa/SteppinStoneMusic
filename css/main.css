@@ -41,7 +41,7 @@ html, body{
 }
 
 body{
-  background-color: #f15d53;
+  background-color: #FFFFFF;
 
 }
 
@@ -50,8 +50,29 @@ a, a:visited{
   text-decoration: none;
 }
 
+.header{
+  background-color: #000000;
+  top:0;
+  left:-15px;
+  position: relative;
+  width: 112%;
+}
+
+/*.logo{
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  font-family: stout;
+  font-size: 5.5em;
+  color: #ffffff;
+  z-index:0;
+}*/
+
 #menuIcon{
-  color: #fdd900;
+  color: #ffffff;
   position: fixed;
   top: .5em;
   left: .5em;
@@ -60,7 +81,7 @@ a, a:visited{
 #navi a{
   font-family: stout;
   font-size: 2em;
-  color: #fdd900;
+  color: #ffffff;
 }
 
 
@@ -86,13 +107,14 @@ a, a:visited{
 #imgContainer{
   padding: 1em;
   position:relative;
-  
+  /*background-color: #000000;*/
+
 }
 
 #cominSoon{
 margin: auto;
 font-family: stout;
-color: #fdd900;
+color: #000000;
 text-align: center;
 }
 
@@ -130,7 +152,7 @@ text-align: center;
 .footer{
   left: -15px;
   width: 112%;
-  background-color: #fdd900;
+  background-color: #000000;
 }
 
 .socialMediaLinks{
@@ -142,5 +164,5 @@ text-align: center;
 }
 
 .socialMediaLinks a{
-  color: #f15d53;
+  color: #ffffff;
 }
