@@ -30,8 +30,6 @@
   font-style: normal;
 }
 
-
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -51,6 +49,11 @@ body{
   background-color: #FFFFFF;
 
 }
+/*.row{
+  margin-left: 0;
+  margin-right:0;
+  margin-bottom: 10em;
+}*/
 
 a, a:visited{
   color: black;
@@ -130,8 +133,9 @@ text-align: center;
     to {opacity:1;}
 }
 
-
-
+/*#music{
+  background-color: black;
+}*/
 
 .footer{
   position: relative;
