@@ -70,7 +70,7 @@ a, a:visited{
 }
 
 #menuIcon{
-  color: #ffffff;
+  color: #fdd900;
   font-size: 1.5em;
   position: fixed;
   top: .25em;
@@ -149,8 +149,12 @@ text-align: center;
   font-size: 1.65em;
 }
 
-#about h1{
+#aboutTitle{
+  position: relative;
+  top:-.25em;
+  left:.30em;
   text-align: center;
+  margin: 10px 0;
 }
 
 #about p{
@@ -159,8 +163,28 @@ text-align: center;
   padding-bottom: 15px;
 }
 
-#music{
+#DW{
+  font-family: kust;
+  font-size: 1.25em;
+}
 
+#amp{
+  font-family: edo;
+}
+
+#music{
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+font-family: stout;
+}
+
+#musicTitle{
+  width: 50%;
+  position: relative;
+  top:-.25em;
+  left:25%;
+  margin:10px 0;
+  text-align: center;
 }
 
 #spotify{
@@ -170,6 +194,15 @@ margin: 0 auto;
 
 #video{
 background-color: black;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+}
+
+#videoTitle{
+width: 50%;
+position: relative;
+left:25%;
+margin: 10px 0;
 }
 
 .footer{
