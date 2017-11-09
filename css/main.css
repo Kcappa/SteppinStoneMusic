@@ -78,6 +78,7 @@ a, a:visited{
   z-index: 2;
 }
 
+
 #navi a{
   font-family: stout;
   font-size: 2em;
@@ -86,6 +87,7 @@ a, a:visited{
 
 
 #naviCloseBtn{
+  color: #fdd900;
   position: absolute;
   top: 0em;
   right: .5em;
@@ -139,6 +141,36 @@ text-align: center;
 @keyframes flash {
     from {opacity:0;}
     to {opacity:1;}
+}
+
+#applIcon{
+  position: relative;
+  top:-5px;
+  left:5px;
+}
+
+#applImg{
+  width:140px;
+  height:56px;
+  display:inline-block;
+  overflow:hidden;
+}
+
+#sptfyIcon{
+  position:relative;
+  top:0px;
+  left:5px;
+}
+
+#sptfyIcon img{
+ width:126px;
+ height:37.8px;
+ scrolling:"no";
+ frameborder:"0"
+ display:inline-block;
+ border:none;
+ overflow:hidden;
+ allowtransparency:"true";
 }
 
 #about{
@@ -224,3 +256,24 @@ margin: 10px 0;
 .socialMediaLinks a{
   color: #000000;
 }
+
+@media screen and (min-width: 768px) {
+      #menuIcon {
+      display: none;
+      }
+
+      .cominSoon p{
+        font-size: 5.5em;
+      }
+
+      #applIcon {
+        width: 285.6px;
+        height: 114.24px;
+      }
+
+      #appleImg{
+        width: 285.6px;
+        height: 114.24px;
+      }
+
+    }
