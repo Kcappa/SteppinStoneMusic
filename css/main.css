@@ -106,6 +106,10 @@ a, a:visited{
   padding-top: 3em;
 }
 
+#muteYouTubeVideoPlayer{
+  display: none;
+}
+
 #imgContainer{
   padding: 0em;
   position:relative;
@@ -258,22 +262,58 @@ margin: 10px 0;
 }
 
 @media screen and (min-width: 768px) {
+
+  section{
+    padding:5em 0;
+    height: auto;
+  }
+
+.header{
+  position: fixed;
+  z-index: 1;
+}
+
       #menuIcon {
       display: none;
       }
 
-      .cominSoon p{
-        font-size: 5.5em;
+      #navi{
+          position: absolute;
+          width: 50%;
+          height: auto;
+          overflow-x: hidden;
+          z-index: 0;
+          background: none;
+          top:0;
+          left:50%;
+          transition: 0.5s;
+          padding-top: 3em;
       }
 
-      #applIcon {
-        width: 285.6px;
-        height: 114.24px;
+      #navi li{
+        display: inline-block;
       }
 
-      #appleImg{
-        width: 285.6px;
-        height: 114.24px;
+      #naviCloseBtn{
+        display: none;
       }
+
+      #imgContainer{
+        display: none;
+      }
+
+      #cominSoon{
+        display: none;
+      }
+
+      #muteYouTubeVideoPlayer{
+        position:relative;
+        top: 3.6em;
+        display: block;
+        z-index: -99;
+
+      }
+
+
 
     }
