@@ -40,7 +40,7 @@ function onYouTubeIframeAPIReady() {
 {
   $('#switch').click(function(){
 
-  $('#switch').attr("href","#home");
+  $('#switch').attr("href","#top");
 
   });
 }
