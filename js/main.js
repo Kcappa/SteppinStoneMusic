@@ -35,3 +35,12 @@ function onYouTubeIframeAPIReady() {
     }
   });
  }
+
+ if (window.matchMedia('(min-width: 768px)').matches)
+{
+  $('#switch').click(function(){
+
+  $('#switch').attr("href","#home");
+
+  });
+}

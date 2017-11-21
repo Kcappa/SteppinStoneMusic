@@ -18,13 +18,13 @@
   <body class="container-fluid">
     <div id="muteYouTubeVideoPlayer"></div>
 
-    <header id="header" class="col-xs-12 col-sm-12 header">
+    <header id="header" class="col-xs-12 header">
       <a class="glyphicon glyphicon-flash" id="menuIcon"></a>
       <img src="img/SSlogo3.png" alt="" class="col-xs-12 col-sm-3 img-responsive">
       <div class="menuContainer" id="navi">
         <a href="javascript:void(0)" class="closebtn" id="naviCloseBtn">&times;</a>
         <ul class="menu">
-          <li><a href="#header">Home</a></li>
+          <li><a id="switch" href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#music">Music</a></li>
           <li><a href="#video">Video</a></li>
@@ -60,29 +60,29 @@
   </section>
   <!-- </div> -->
 
-  <section id="about" class="col-xs-12 col-sm-6">
-      <img  id="aboutTitle" class="img-responsive col-xs-12" src="img/aboutTitle.png" alt="">
-        <img class="img-responsive col-xs-12" src="img/aboutPhoto.png" alt="">
-      <p class="col-xs-12">Steppin' Stone is a one man band man hailing from Toronto, Canada. The result of an experiment gone wrong, the dead come back to life. Follow this ghoul on a musical journey as he sings about the only things that matter in life <span id="DW">Death<span id="amp">&#38;</span>Women</span></p>
+  <section id="about" class="col-xs-12">
+      <img  id="aboutTitle" class="img-responsive col-xs-12 col-sm-6" src="img/aboutTitle.png" alt="">
+        <img class="img-responsive col-xs-12 col-sm-6" src="img/aboutPhoto.png" alt="">
+      <p class="col-xs-12 col-sm-6">Steppin' Stone is a one man band man hailing from Toronto, Canada. The result of an experiment gone wrong, the dead come back to life. Follow this ghoul on a musical journey as he sings about the only things that matter in life <span id="DW">Death<span id="amp">&#38;</span>Women</span></p>
   </section>
 
     <!-- <div class="row"> -->
-    <section id="music" class="col-xs-12 col-sm-6">
-      <img id="musicTitle" class="img-responsive col-xs-12" src="img/musicTitle.png" alt="">
+    <section id="music" class="col-xs-12">
+      <img id="musicTitle" class="img-responsive col-xs-12 col-lg-6" src="img/musicTitle.png" alt="">
       <div id="spotify" class="col-xs-12">
-        <iframe src="https://open.spotify.com/embed?uri=spotify:album:6Xbx4fVh1SFtFBzYsaWjKm" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
+        <iframe class="col-xs-12 col-lg-6" src="https://open.spotify.com/embed?uri=spotify:album:6Xbx4fVh1SFtFBzYsaWjKm" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
       </div>
       <div class="apple" class="col-xs-12">
-        <iframe src="https://tools.applemusic.com/embed/v1/song/1301047294?country=ca" height="110px" width="100%" frameborder="0"></iframe>
+        <iframe class="col-xs-12 col-lg-6" src="https://tools.applemusic.com/embed/v1/song/1301047294?country=ca" height="110px" width="100%" frameborder="0"></iframe>
       </div>
       <div class="soundcloud" class="col-xs-12">
-        <iframe width="100%" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/368521109&amp;color=%23f27b99&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+        <iframe  class="col-xs-12 col-lg-6" width="100%" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/368521109&amp;color=%23f27b99&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
       </div>
     </section>
     <!-- </div> -->
 
-    <section id="video" class="col-xs-12 col-sm-6">
-      <img id="videoTitle" class="img-responsive col-xs-12" src="img/videoTitle.png" alt="">
+    <section id="video" class="col-xs-12">
+      <img id="videoTitle" class="img-responsive col-xs-12 col-lg-6" src="img/videoTitle.png" alt="">
       <iframe width="100%" height="30%" src="https://www.youtube.com/embed/6ovSgct5PGg" frameborder="0" allowfullscreen></iframe>
       <iframe width="100%" height="30%" src="https://www.youtube.com/embed/GNWUX4Sicmk" frameborder="0" allowfullscreen></iframe>
     </section>

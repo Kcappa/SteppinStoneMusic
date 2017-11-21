@@ -261,10 +261,10 @@ margin: 10px 0;
   color: #000000;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
 
   section{
-    padding:5em 0;
+    padding:1.5em 0;
     height: auto;
   }
 
@@ -284,14 +284,20 @@ margin: 10px 0;
           overflow-x: hidden;
           z-index: 0;
           background: none;
-          top:0;
-          left:50%;
+          top:-2.5em;
+          left:70%;
           transition: 0.5s;
           padding-top: 3em;
       }
 
       #navi li{
         display: inline-block;
+        font-size: 1.5em;
+        padding: .5em;
+      }
+
+      #navi #switch{
+        ;
       }
 
       #naviCloseBtn{
@@ -312,6 +318,10 @@ margin: 10px 0;
         display: block;
         z-index: -99;
 
+      }
+
+      #about{
+        display: block;
       }
 
 
