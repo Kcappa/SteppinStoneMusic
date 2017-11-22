@@ -300,21 +300,13 @@ margin: 10px 0;
         display: none;
       }
 
-      #imgContainer{
-        display: none;
-      }
-
-      #cominSoon{
-        display: none;
-      }
-
-      #muteYouTubeVideoPlayer{
+      /*#muteYouTubeVideoPlayer{
         position:relative;
         top: 3.6em;
         display: block;
         z-index: -99;
 
-      }
+      }*/
 
       #about{
         display: block;
