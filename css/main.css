@@ -323,10 +323,14 @@ margin: 10px 0;
       }
 
       #applIcon{
-
+        top: -25em;
+        left:35em;
       }
 
       #sptfyIcon{
+
+        top:-24em;
+        left:5em;
 
       }
 
