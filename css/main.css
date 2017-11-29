@@ -111,7 +111,7 @@ a, a:visited{
 }
 
 #home{
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #imgContainer{
@@ -320,6 +320,14 @@ margin: 10px 0;
 
       #flashContainer{
       display: none;
+      }
+
+      #applIcon{
+
+      }
+
+      #sptfyIcon{
+
       }
 
 
