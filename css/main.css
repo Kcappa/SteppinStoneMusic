@@ -110,9 +110,16 @@ a, a:visited{
   display: none;
 }
 
+#home{
+  overflow-x: hidden;
+}
+
 #imgContainer{
   padding: 0em;
   position:relative;
+  top:-5em;
+  left: -5em;
+  width: 140%;
 }
 
 .cominSoon{
@@ -129,7 +136,7 @@ text-align: center;
 
 #cominSoon{
   position: relative;
-  top:-1.5em;
+  top:-8em;
   padding: 0;
 }
 
@@ -268,6 +275,10 @@ margin: 10px 0;
     height: auto;
   }
 
+  #music, #about, #video{
+    height: 1000px;
+  }
+
 .header{
   position: fixed;
   z-index: 1;
@@ -300,6 +311,18 @@ margin: 10px 0;
         display: none;
       }
 
+      #imgContainer{
+        position: relative;
+        top: -2.5em;
+        left: -6em;
+        width: 65%;
+      }
+
+      #flashContainer{
+      display: none;
+      }
+
+
       /*#muteYouTubeVideoPlayer{
         position:relative;
         top: 3.6em;
@@ -310,6 +333,23 @@ margin: 10px 0;
 
       #about{
         display: block;
+      }
+
+      #music .soundcloud{
+        position: relative;
+        top:-5.75em;
+      }
+
+      #musicTitle{
+        position: relative;
+        width: 20%;
+        left: 40%;
+      }
+
+      #videoTitle{
+        position: relative;
+        width: 20%;
+        left: 40%;
       }
 
 
