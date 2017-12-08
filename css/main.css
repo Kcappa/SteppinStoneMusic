@@ -268,6 +268,226 @@ margin: 10px 0;
   color: #000000;
 }
 
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  section{
+    padding:1.5em 0;
+    height: auto;
+  }
+
+  #music, #about, #video{
+    position: relative;
+    height: 1000px;
+
+  }
+
+.header{
+  position: fixed;
+  z-index: 1;
+}
+
+      #menuIcon {
+      display: none;
+      }
+
+      #navi{
+          position: absolute;
+          width: 50%;
+          height: auto;
+          overflow-x: hidden;
+          z-index: 0;
+          background: none;
+          top:-3.5em;
+          left:65%;
+          transition: 0.5s;
+          padding-top: 3em;
+      }
+
+      #navi li{
+        display: inline-block;
+        font-size: 1em;
+        padding: .5em;
+      }
+
+      #naviCloseBtn{
+        display: none;
+      }
+
+      #imgContainer{
+        position: relative;
+        top: -2.5em;
+        left: -6em;
+        width: 65%;
+      }
+
+      #flashContainer{
+      display: none;
+      }
+
+      #applIcon{
+        top: -19em;
+        left:28em;
+      }
+
+      #sptfyIcon{
+        top:-18.5em;
+        left:5em;
+      }
+
+      #about{
+        display: block;
+      }
+
+      #aboutTitle{
+        position: relative;
+        left: 26.5%;
+      }
+
+      #aboutPhoto{
+        position: relative;
+        left:-25%;
+        top: 5em;
+      }
+
+      #about p{
+        position: relative;
+        top:5em;
+        left:25%;
+      }
+
+
+      #music .soundcloud{
+        position: relative;
+        top:-5.75em;
+      }
+
+      #musicTitle{
+        position: relative;
+        width: 20%;
+        left: 40%;
+      }
+
+      #videoTitle{
+        position: relative;
+        width: 20%;
+        left: 40%;
+      }
+
+
+
+}
+
+@media (min-width: 992px) {
+  section{
+    padding:1.5em 0;
+    height: auto;
+  }
+
+  #music, #about, #video{
+    position: relative;
+    height: 1000px;
+
+  }
+
+.header{
+  position: fixed;
+  z-index: 1;
+}
+
+      #menuIcon {
+      display: none;
+      }
+
+      #navi{
+          position: absolute;
+          width: 50%;
+          height: auto;
+          overflow-x: hidden;
+          z-index: 0;
+          background: none;
+          top:-3.5em;
+          left:65%;
+          transition: 0.5s;
+          padding-top: 3em;
+      }
+
+      #navi li{
+        display: inline-block;
+        font-size: 1.5em;
+        padding: .5em;
+      }
+
+      #naviCloseBtn{
+        display: none;
+      }
+
+      #imgContainer{
+        position: relative;
+        top: -2.5em;
+        left: -6em;
+        width: 65%;
+      }
+
+      #flashContainer{
+      display: none;
+      }
+
+      #applIcon{
+        top: -19em;
+        left:28em;
+      }
+
+      #sptfyIcon{
+        top:-18.5em;
+        left:5em;
+      }
+
+      #about{
+        display: block;
+      }
+
+      #aboutTitle{
+        position: relative;
+        left: 26.5%;
+      }
+
+      #aboutPhoto{
+        position: relative;
+        left:-25%;
+        top: 5em;
+      }
+
+      #about p{
+        position: relative;
+        top:5em;
+        left:25%;
+      }
+
+
+      #music .soundcloud{
+        position: relative;
+        top:-5.75em;
+      }
+
+      #musicTitle{
+        position: relative;
+        width: 20%;
+        left: 40%;
+      }
+
+      #videoTitle{
+        position: relative;
+        width: 20%;
+        left: 40%;
+      }
+
+
+}
+
+
 @media screen and (min-width: 1200px) {
 
   section{
