@@ -276,7 +276,9 @@ margin: 10px 0;
   }
 
   #music, #about, #video{
+    position: relative;
     height: 1000px;
+
   }
 
 .header{
@@ -346,6 +348,24 @@ margin: 10px 0;
       #about{
         display: block;
       }
+
+      #aboutTitle{
+        position: relative;
+        left: 26.5%;
+      }
+
+      #aboutPhoto{
+        position: relative;
+        left:-25%;
+        top: 5em;
+      }
+
+      #about p{
+        position: relative;
+        top:5em;
+        left:25%;
+      }
+
 
       #music .soundcloud{
         position: relative;
